@@ -16,12 +16,11 @@ The program uses the Twitter Streaming API to stream 10,000 tweets. Subsequently
 Most of the dependencies can be installed using a python package manager like pip.
 
 #Usage
-The python scripts must be run in the following order:
 	1. getTweets.py
 	2. trainSentimentClassifier.py
 	3. analyzeTweets.py
 
 #References
-http://socialmedia-class.org/twittertutorial.html
-http://adilmoujahid.com/posts/2014/07/twitter-analytics/
-https://pythonprogramming.net/
+	+http://socialmedia-class.org/twittertutorial.html
+	+http://adilmoujahid.com/posts/2014/07/twitter-analytics/
+	+https://pythonprogramming.net/
