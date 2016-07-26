@@ -10,7 +10,11 @@ from nltk.classify import ClassifierI
 from statistics import mode
 from nltk.tokenize import word_tokenize
 import codecs
+import os
     
+if not os.path.exists("pickled_algos"):
+	os.makedirs("pickled_algos")
+
 short_pos = codecs.open("data/short_movie_reviews/positive.txt","r", encoding='utf8', errors='ignore').read()
 short_neg = codecs.open("data/short_movie_reviews/negative.txt","r", encoding='utf8', errors='ignore').read()
 
