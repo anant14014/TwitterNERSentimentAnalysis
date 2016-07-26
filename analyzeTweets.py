@@ -91,7 +91,7 @@ def writeTweetsToExcel(tweets):
 
 
 if __name__ == '__main__':
-	tweets_data_path = 'twitter_stream_1000tweets.txt'
+	tweets_data_path = 'twitter_stream_10000tweets.txt'
 	tweets_data = processTweets(tweets_data_path)
 	tweets = pandizeTweets(tweets_data)
 	writeTweetsToExcel(tweets)

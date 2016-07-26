@@ -22,7 +22,7 @@ twitter_stream = TwitterStream(auth=oauth)
 iterator = twitter_stream.statuses.sample(language="en")
 
 # Print each tweet in the stream to the screen 
-# Here we set it to stop after getting 1000 tweets. 
+# Here we set it to stop after getting 10000 tweets. 
 # You don't have to set it to stop, but can continue running 
 # the Twitter API to collect data for days or even longer. 
 tweet_count = 10000

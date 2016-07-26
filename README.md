@@ -16,9 +16,12 @@ The program uses the Twitter Streaming API to stream 10,000 tweets. Subsequently
 Most of the dependencies can be installed using a python package manager like pip.
 
 #Usage
-	1. getTweets.py
-	2. trainSentimentClassifier.py
-	3. analyzeTweets.py
+	1. python getTweets.py >> twitter_stream_10000tweets.txt
+	2. python trainSentimentClassifier.py
+	3. python analyzeTweets.py
+
+#Approach
+For the NER tagging, I use the NER tagger that comes out of the box with NLTK. For the sentiment analysis, I train 5 different classifiers from the NLTK-Scikit interface and build a voting classifier that counts the votes from each classifier.
 
 #References
 	+http://socialmedia-class.org/twittertutorial.html
